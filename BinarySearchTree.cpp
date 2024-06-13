@@ -35,7 +35,12 @@ public:
        newNode->leftchild = nullptr; //Make the  left child of the new node point to null
        newNode->rightchild = nullptr; //Make the  left child of the new node point to null
 
+       Node* parent = nullptr;
+       Node* currentNode = nullptr;
+       search(element,parent,currentNode); //Locate the node which wiil be teh parent of the new node to be insert
+
        
+        
     }
 
 };
